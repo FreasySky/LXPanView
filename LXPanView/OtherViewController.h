@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  OtherViewController.h
 //  LXPanView
 //
 //  Created by Kevin on 2020/4/6.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface OtherViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
